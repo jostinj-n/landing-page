@@ -12,6 +12,14 @@ ul {
     padding: 0;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height for demonstration */
+}
+.section{
+    flex: 1;
+}
 .header {
     display: flex;
     justify-content: space-between;
@@ -42,6 +50,7 @@ ul {
     justify-content: center;
     background-color: #1F2937;
     padding: 50px 200px;
+    gap: 20px;
 }
 
 .hero-img,
@@ -54,8 +63,6 @@ ul {
     background-color: grey;
     align-items: center;
     justify-content: center;
-    height:250px
-
 }
 
 
