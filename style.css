@@ -125,7 +125,7 @@ ul {
 #quote {
     font-size: 36px;
     color: #1F2937;
-    font-weight: 100;
+    font-weight: lighter;
     font-style: italic;
 }
 
@@ -137,4 +137,40 @@ ul {
     font-weight: 900;
     font-size: 26px;
     text-align: right;
+}
+
+.bottom-sign-up{
+    background-color: #3882F6;
+    margin: 70px;
+    padding: 50px 50px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 925px;
+    align-items: center;
+}
+
+.bottom-section{
+    display: flex;
+    justify-content: center;
+}
+
+#bottom-header{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+#bottom-secondary{
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+#bottom-sign-button{
+    background-color: transparent;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 5px;
 }
