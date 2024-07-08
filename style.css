@@ -95,14 +95,23 @@ ul {
 
 
 .image-countour{
-    border: 3px solid rgb(56, 56, 221);
+    border: 3px solid #3882F6;
     width: 150px;
     height: 150px;
     border-radius: 7px;
 }
 
 .info-section{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
     width: 150px;
     text-align: center;
 }
 
+#information-section-header{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 26px;
+}
