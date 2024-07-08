@@ -46,7 +46,6 @@ ul {
     background-color: #1F2937;
     align-items: center;
     padding: 0px 200px;
-
 }
 
 #header-logo {
@@ -75,7 +74,7 @@ ul {
 
 .hero-img,
 .hero-text {
-    flex: 1;
+    width: 430px;
 }
 
 .hero-img {
@@ -183,4 +182,15 @@ ul {
 .copyright{
     color: #f9faf8;
     font-size: 18px;
+}
+
+#sign-up{
+    background-color: #3882F6;
+    border: 0px;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-top: 5px;
 }
