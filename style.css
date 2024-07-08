@@ -174,3 +174,13 @@ ul {
     padding: 5px 20px;
     border-radius: 5px;
 }
+
+.footer-section{
+    background-color: #1F2937;
+    text-align: center;
+    padding: 35px;
+}
+.copyright{
+    color: #f9faf8;
+    font-size: 18px;
+}
